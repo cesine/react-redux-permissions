@@ -33,6 +33,9 @@
   "dependencies": {
     "prop-types": "^15.6.2"
   },
+  "jest": {
+    "testURL": "http://localhost/"
+  },
   "devDependencies": {
     "babel-cli": "^6.8.0",
     "babel-eslint": "^9.0.0",

@@ -8,7 +8,9 @@ export const reducer = (state = [], action = {}) => {
         ...action.roles,
       ]
     case RRP_REMOVE_PERMISSION:
-      return state.filter(role => role !== action.role)
+      return state.filter(role =>
+        action.roles.indexOf(role) === -1,
+      );
     case RRP_CLEAR:
       return []
     default:
