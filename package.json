@@ -1,5 +1,5 @@
 {
-  "name": "react-redux-permissions",
+  "name": "@captemulation/react-redux-permissions",
   "version": "1.0.4",
   "description": "A permissions library for react and redux applications.",
   "main": "dist/index.js",
@@ -21,6 +21,9 @@
     "roles"
   ],
   "author": "Fabio Santos",
+  "collaborators": [
+    "John Dean <jdean@shutterstock.com>"
+  ],
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/shizpi/react-redux-permissions/issues"
