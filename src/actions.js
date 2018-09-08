@@ -1,4 +1,8 @@
-import { RRP_ADD_PERMISSION, RRP_REMOVE_PERMISSION, RRP_CLEAR } from "./constants"
+import {
+  RRP_ADD_PERMISSION,
+  RRP_REMOVE_PERMISSION,
+  RRP_CLEAR,
+} from "./constants"
 
 export function add(...roles) {
   return {

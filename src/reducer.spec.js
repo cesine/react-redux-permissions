@@ -20,6 +20,18 @@ describe('reducer', () => {
     })).toEqual(['foo', 'bar']);
   });
 
+  it('adds object to state', () => {
+    expect(reducer([], {
+      type: RRP_ADD_PERMISSION,
+      roles: [{
+        foo: {
+          bar: true,
+        },
+      }]
+    })).toEqual(['foo.bar']);
+  });
+
+
   it('removes one from state', () => {
     expect(reducer(['foo', 'bar'], {
       type: RRP_REMOVE_PERMISSION,
