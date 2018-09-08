@@ -1,6 +1,6 @@
 {
   "name": "@captemulation/react-redux-permissions",
-  "version": "1.2.0",
+  "version": "1.3.0",
   "description": "A permissions library for react and redux applications.",
   "main": "dist/index.js",
   "scripts": {
